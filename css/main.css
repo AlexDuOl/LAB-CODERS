@@ -1,3 +1,43 @@
 body {
-  background-color: gray ;
+  background-color: #839192;
+}
+
+h1 {
+  color: white;
+  font-family: 'Inconsolata', monospace;
+}
+
+h3 {
+  bottom: 20%;
+  color: white;
+  font-family: 'Inconsolata', monospace;
+  left: 30%;
+  position: relative;
+  text-align: center;
+  text-decoration: underline #839192;
+}
+
+hr {
+  border: 2px solid white;
+  left: 0;
+  position: absolute;
+  width: 100px;
+}
+
+div.retrato img {
+  height: 250px;
+  width: 100%;
+}
+
+section {
+  border: 1px solid black;
+  width: 80%;
+  margin: 5% 10%;
+}
+
+.retrato {
+  display: inline-block;
+  height: 300px;
+  margin-left: 1%;
+  width: 31%;
 }
