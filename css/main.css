@@ -23,11 +23,6 @@ hr {
   width: 100px;
 }
 
-div.retrato img {
-  height: 250px;
-  width: 100%;
-}
-
 section {
   width: 80%;
   margin: 5% 10%;
@@ -36,6 +31,18 @@ section {
 .retrato {
   display: inline-block;
   height: 300px;
-  margin-left: 1%;
   width: 31%;
+}
+
+.retrato img {
+  width: 100%;
+  height: auto;
+}
+
+@supports(object-fit: cover){
+  .retrato img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
 }
